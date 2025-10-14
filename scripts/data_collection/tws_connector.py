@@ -6,6 +6,7 @@ import threading
 import time
 from datetime import datetime, timedelta
 import pandas as pd
+import xml.etree.ElementTree as ET
 
 class TWSConnector(EWrapper, EClient):
     def __init__(self):
@@ -133,6 +134,76 @@ class TWSConnector(EWrapper, EClient):
         time.sleep(2)
         self.cancelPositions()
         return self.positions
+    
+    def get_fundamental_data(self, symbol, report_type='RESC'):
+        """
+        Get fundamental data from TWS
+        
+        Parameters:
+        - symbol: Stock ticker
+        - report_type: Type of report
+            'ReportsFinSummary' - Financial summary
+            'ReportSnapshot' - Company snapshot
+            'RESC' - Analyst estimates (EPS, revenue)
+            'ReportsFinStatements' - Financial statements
+        
+        Returns:
+        - XML string with fundamental data
+        """
+        contract = self.create_stock_contract(symbol)
+        reqId = len(self.fundamental_data) + 1000
+        
+        self.data_ready.clear()
+        self.reqFundamentalData(reqId, contract, report_type, [])
+        
+        # Wait for data with timeout
+        if self.data_ready.wait(timeout=10):
+            return self.fundamental_data.get(reqId, None)
+        return None
+    
+    def parse_fundamental_xml(self, xml_data):
+        """
+        Parse TWS fundamental data XML
+        
+        Returns dict with:
+        - eps_estimate: Current quarter EPS estimate
+        - revenue_estimate: Current quarter revenue estimate
+        - analyst_count: Number of analysts
+        - earnings_date: Next earnings date
+        """
+        if not xml_data:
+            return {}
+        
+        try:
+            root = ET.fromstring(xml_data)
+            result = {}
+            
+            # Try to find EPS estimates
+            for elem in root.iter():
+                if 'EPSEstimate' in elem.tag or 'epsEstimate' in elem.tag:
+                    result['eps_estimate'] = float(elem.text) if elem.text else None
+                elif 'RevenueEstimate' in elem.tag or 'revenueEstimate' in elem.tag:
+                    result['revenue_estimate'] = float(elem.text) if elem.text else None
+                elif 'AnalystCount' in elem.tag or 'analystCount' in elem.tag:
+                    result['analyst_count'] = int(elem.text) if elem.text else None
+                elif 'EarningsDate' in elem.tag or 'earningsDate' in elem.tag:
+                    result['earnings_date'] = elem.text
+            
+            return result
+        except Exception as e:
+            print(f"Error parsing XML: {e}")
+            return {}
+    
+    def get_earnings_estimates(self, symbol):
+        """
+        Get earnings estimates for a symbol
+        
+        Returns dict with EPS and revenue estimates
+        """
+        xml_data = self.get_fundamental_data(symbol, 'RESC')
+        if xml_data:
+            return self.parse_fundamental_xml(xml_data)
+        return {}
 
 def connect_to_tws(port=4002, client_id=1):
     """Connect to TWS API"""

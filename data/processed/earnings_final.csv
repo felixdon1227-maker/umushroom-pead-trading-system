@@ -20,13 +20,11 @@ date,time,ticker,company_name,eps_estimate,market_cap_usd,sector
 2024-10-24,12:00,GD,General Dynamics Corporation,3.69,90840000000.0,Industrials
 2024-10-24,12:00,VRTS,"Virtus Investment Partners, Inc.",6.83,1300000000.0,Other
 2024-10-24,12:30,HCA,"HCA Healthcare, Inc.",5.71,98120000000.0,Healthcare
-2024-10-24,13:00,FHB,"First Hawaiian, Inc.",0.52,3070000000.0,Other
 2024-10-24,14:30,PG,Procter & Gamble Company (The),1.9,347370000000.0,Other
 2024-10-24,14:30,STEL,"Stellar Bancorp, Inc.",0.49,1600000000.0,Financials
 2024-10-24,13:00,ITW,Illinois Tool Works Inc.,2.72,72110000000.0,Other
 2024-10-24,11:45,BAH,Booz Allen Hamilton Holding Corporation,1.53,12010000000.0,Other
 2024-10-24,14:30,GNTX,Gentex Corporation,0.47,5720000000.0,Other
-2024-10-24,14:30,CRI,"Carter's, Inc.",0.6,1130000000.0,Other
 2024-10-24,14:30,PIPR,Piper Sandler Companies,3.17,6130000000.0,Other
 2024-10-24,14:30,DCOM,"Dime Community Bancshares, Inc.",0.69,1320000000.0,Other
 2024-10-24,14:30,LKFN,Lakeland Financial Corporation,1.04,1620000000.0,Financials
@@ -36,13 +34,10 @@ date,time,ticker,company_name,eps_estimate,market_cap_usd,sector
 2024-10-24,14:30,NVT,nVent Electric plc,0.88,16219999999.999998,Industrials
 2024-10-27,11:45,BOH,Bank of Hawaii Corporation,1.17,2560000000.0,Financials
 2024-10-27,21:00,ABCB,Ameris Bancorp,1.47,5140000000.0,Financials
-2024-10-27,14:30,ARLP,"Alliance Resource Partners, L.P.",0.64,3320000000.0,Energy
 2024-10-27,14:30,KDP,Keurig Dr Pepper Inc.,0.54,35920000000.0,Other
 2024-10-27,21:00,AGYS,"Agilysys, Inc.",0.38,3080000000.0,Other
 2024-10-27,11:00,RVTY,"Revvity, Inc.",1.14,10660000000.0,Other
 2024-10-27,21:00,LEG,"Leggett & Platt, Incorporated",0.29,1180000000.0,Other
-2024-10-27,21:00,CAR,"Avis Budget Group, Inc.",8.24,5570000000.0,Other
-2024-10-27,21:00,BRO,"Brown & Brown, Inc.",0.94,31290000000.0,Other
 2024-10-27,21:00,CR,Crane Company,1.49,10410000000.0,Other
 2024-10-27,21:00,DORM,"Dorman Products, Inc.",2.5,4270000000.0,Other
 2024-10-27,21:00,AMKR,"Amkor Technology, Inc.",0.43,7480000000.0,Technology
@@ -68,7 +63,6 @@ date,time,ticker,company_name,eps_estimate,market_cap_usd,sector
 2024-10-27,21:05,FFIV,"F5, Inc.",3.97,19840000000.0,Other
 2024-11-07,AM,IBRX,"ImmunityBio, Inc.",-0.11,2400000000.0,Healthcare
 2024-11-07,AM,CMPO,"CompoSecure, Inc.",0.25,2090000000.0,Other
-2024-11-07,AM,FRHC,Freedom Holding Corp.,0.0,10500000000.0,Other
 2024-11-07,AM,CLMT,"Calumet, Inc",-0.37,1610000000.0,Other
 2024-11-07,AM,PAR,PAR Technology Corporation,-0.01,1510000000.0,Technology
 2024-11-07,AM,SPHR,Sphere Entertainment Co.,-1.81,2260000000.0,Other
@@ -80,26 +74,20 @@ date,time,ticker,company_name,eps_estimate,market_cap_usd,sector
 2024-11-14,22:05,BKE,"Buckle, Inc. (The)",0.94,2750000000.0,Other
 2024-11-14,22:05,NB,NioCorp Developments Ltd.,-0.09,1170000000.0,Other
 2024-11-14,22:05,SPB,"Spectrum Brands Holdings, Inc.",0.9,1230000000.0,Consumer
-2024-11-14,22:05,SBET,"SharpLink Gaming, Inc.",0.01,3080000000.0,Other
 2024-11-14,22:05,BTDR,Bitdeer Technologies Group,-0.17,4370000000.0,Technology
 2024-11-14,22:05,ASTS,"AST SpaceMobile, Inc.",-0.21,35000000000.0,Other
 2024-11-14,22:05,ACLX,"Arcellx, Inc.",-0.99,4850000000.0,Other
-2024-11-14,22:05,YOU,"Clear Secure, Inc.",0.3,4130000000.0,Other
 2024-11-14,22:05,COGT,"Cogent Biosciences, Inc.",-0.52,2160000000.0,Healthcare
 2024-11-14,22:05,CELC,Celcuity Inc.,-1.02,1970000000.0,Other
 2024-11-26,AM,PVH,PVH Corp.,2.57,3950000000.0,Other
 2024-11-26,AM,FIVE,"Five Below, Inc.",0.22,8350000000.0,Consumer
 2024-11-26,AM,NCNO,"nCino, Inc.",0.2,2890000000.0,Other
-2024-11-26,AM,NTNX,"Nutanix, Inc.",0.41,18290000000.0,Other
 2024-11-26,AM,SNOW,Snowflake Inc.,0.31,81550000000.0,Other
 2024-11-26,AM,VEEV,Veeva Systems Inc.,1.95,47180000000.0,Technology
-2024-11-26,AM,VSCO,Victorias Secret & Co.,-0.62,2380000000.0,Other
 2024-11-26,AM,ZS,"Zscaler, Inc.",0.86,47940000000.0,Other
 2024-11-26,AM,PSTG,"Pure Storage, Inc.",0.58,30500000000.0,Other
 2024-11-27,AM,ASAN,"Asana, Inc.",0.06,3360000000.0,Other
-2024-11-27,AM,REX,REX American Resources Corporation,0.27,1080000000.0,Energy
 2024-11-27,AM,MRVL,"Marvell Technology, Inc.",0.74,76220000000.0,Technology
 2024-11-27,AM,IOT,Samsara Inc.,0.12,21520000000.0,Other
 2024-11-27,AM,GCT,GigaCloud Technology Inc,0.72,1020000000.0,Technology
 2024-11-28,AM,FRO,Frontline Plc,0.27,4960000000.0,Other
-2024-11-28,AM,FLNG,FLEX LNG Ltd.,0.43,1310000000.0,Energy
