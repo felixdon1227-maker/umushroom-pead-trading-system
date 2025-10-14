@@ -11,7 +11,7 @@ print("=" * 80)
 
 # Connect to TWS
 print("\nStep 1: Connecting to TWS on port 4002...")
-tws = connect_to_tws(port=4002, client_id=35)
+tws = connect_to_tws(port=4002, client_id=100)
 
 if not tws:
     print("✗ Failed to connect. Make sure TWS/IB Gateway is running.")
