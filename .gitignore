@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (keep structure but ignore large data)
+data/processed/historical_data/
+data/raw/*.csv
+data/raw/*.txt
+logs/*.log
+
+# Keep important processed files
+!data/processed/earnings_final.csv
+!data/exclusions/*.csv
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+*.key
+*.pem
+secrets.py
+config/secrets.py
+
+# Large data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,105 @@
+date,time,ticker,company_name,eps_estimate,market_cap_usd,sector
+2024-10-16,AM,FFIN,"First Financial Bankshares, Inc.",0.47,4800000000.0,Financials
+2024-10-16,AM,INDB,Independent Bank Corp.,1.54,3470000000.0,Financials
+2024-10-16,AM,HRI,Herc Holdings Inc.,2.86,4230000000.000001,Other
+2024-10-16,AM,UFPI,"UFP Industries, Inc.",1.41,5530000000.0,Other
+2024-10-16,AM,WABC,Westamerica Bancorporation,1.08,1200000000.0,Financials
+2024-10-17,12:00,SLB,SLB Limited,0.68,48800000000.0,Other
+2024-10-17,12:30,WBS,Webster Financial Corporation,1.52,9850000000.0,Financials
+2024-10-17,11:00,ALV,"Autoliv, Inc.",2.08,9090000000.0,Other
+2024-10-17,11:00,RF,Regions Financial Corporation,0.6,22450000000.0,Financials
+2024-10-17,11:30,FITB,Fifth Third Bancorp,0.86,28790000000.0,Financials
+2024-10-17,12:00,AXP,American Express Company,4.0,233590000000.0,Other
+2024-10-17,12:30,STT,State Street Corporation,2.64,32860000000.0,Other
+2024-10-17,12:30,ALLY,Ally Financial Inc.,1.0,12420000000.0,Financials
+2024-10-17,14:30,HBAN,Huntington Bancshares Incorporated,0.37,24000000000.0,Other
+2024-10-17,14:30,EEFT,"Euronet Worldwide, Inc.",3.61,3470000000.0,Other
+2024-10-17,14:30,RBCAA,"Republic Bancorp, Inc.",1.41,1240000000.0,Financials
+2024-10-17,14:30,TFC,Truist Financial Corporation,0.99,56760000000.0,Financials
+2024-10-17,13:00,CMA,Comerica Incorporated,1.31,10180000000.0,Other
+2024-10-24,12:00,GD,General Dynamics Corporation,3.69,90840000000.0,Industrials
+2024-10-24,12:00,VRTS,"Virtus Investment Partners, Inc.",6.83,1300000000.0,Other
+2024-10-24,12:30,HCA,"HCA Healthcare, Inc.",5.71,98120000000.0,Healthcare
+2024-10-24,13:00,FHB,"First Hawaiian, Inc.",0.52,3070000000.0,Other
+2024-10-24,14:30,PG,Procter & Gamble Company (The),1.9,347370000000.0,Other
+2024-10-24,14:30,STEL,"Stellar Bancorp, Inc.",0.49,1600000000.0,Financials
+2024-10-24,13:00,ITW,Illinois Tool Works Inc.,2.72,72110000000.0,Other
+2024-10-24,11:45,BAH,Booz Allen Hamilton Holding Corporation,1.53,12010000000.0,Other
+2024-10-24,14:30,GNTX,Gentex Corporation,0.47,5720000000.0,Other
+2024-10-24,14:30,CRI,"Carter's, Inc.",0.6,1130000000.0,Other
+2024-10-24,14:30,PIPR,Piper Sandler Companies,3.17,6130000000.0,Other
+2024-10-24,14:30,DCOM,"Dime Community Bancshares, Inc.",0.69,1320000000.0,Other
+2024-10-24,14:30,LKFN,Lakeland Financial Corporation,1.04,1620000000.0,Financials
+2024-10-24,14:30,GRC,Gorman-Rupp Company (The),0.56,1200000000.0,Other
+2024-10-24,14:30,TXNM,"TXNM Energy, Inc.",1.52,5990000000.0,Energy
+2024-10-24,14:30,WT,"WisdomTree, Inc.",0.21,1990000000.0,Other
+2024-10-24,14:30,NVT,nVent Electric plc,0.88,16219999999.999998,Industrials
+2024-10-27,11:45,BOH,Bank of Hawaii Corporation,1.17,2560000000.0,Financials
+2024-10-27,21:00,ABCB,Ameris Bancorp,1.47,5140000000.0,Financials
+2024-10-27,14:30,ARLP,"Alliance Resource Partners, L.P.",0.64,3320000000.0,Energy
+2024-10-27,14:30,KDP,Keurig Dr Pepper Inc.,0.54,35920000000.0,Other
+2024-10-27,21:00,AGYS,"Agilysys, Inc.",0.38,3080000000.0,Other
+2024-10-27,11:00,RVTY,"Revvity, Inc.",1.14,10660000000.0,Other
+2024-10-27,21:00,LEG,"Leggett & Platt, Incorporated",0.29,1180000000.0,Other
+2024-10-27,21:00,CAR,"Avis Budget Group, Inc.",8.24,5570000000.0,Other
+2024-10-27,21:00,BRO,"Brown & Brown, Inc.",0.94,31290000000.0,Other
+2024-10-27,21:00,CR,Crane Company,1.49,10410000000.0,Other
+2024-10-27,21:00,DORM,"Dorman Products, Inc.",2.5,4270000000.0,Other
+2024-10-27,21:00,AMKR,"Amkor Technology, Inc.",0.43,7480000000.0,Technology
+2024-10-27,21:00,NBTB,NBT Bancorp Inc.,0.97,2200000000.0,Financials
+2024-10-27,21:00,ACGL,Arch Capital Group Ltd.,2.26,34440000000.0,Financials
+2024-10-27,21:00,NOV,NOV Inc.,0.25,4690000000.0,Other
+2024-10-27,21:00,FTAI,FTAI Aviation Ltd.,1.24,17480000000.0,Industrials
+2024-10-27,21:10,NXPI,NXP Semiconductors N.V.,3.12,55300000000.0,Technology
+2024-10-27,21:00,NUE,Nucor Corporation,2.22,31810000000.0,Materials
+2024-10-27,21:00,NE,Noble Corporation plc A,0.29,4340000000.0,Other
+2024-10-27,21:00,PFG,Principal Financial Group Inc,2.21,18240000000.0,Financials
+2024-10-27,21:00,UHS,"Universal Health Services, Inc.",4.78,12900000000.0,Healthcare
+2024-10-27,21:00,WM,"Waste Management, Inc.",2.03,88140000000.0,Other
+2024-10-27,21:02,CDNS,"Cadence Design Systems, Inc.",1.79,89770000000.0,Technology
+2024-10-27,21:00,SBCF,Seacoast Banking Corporation of Florida,0.46,2760000000.0,Financials
+2024-10-27,21:05,CINF,Cincinnati Financial Corporation,2.08,24880000000.0,Financials
+2024-10-27,21:05,OLN,Olin Corporation,0.07,2850000000.0,Other
+2024-10-27,21:05,RMBS,"Rambus, Inc.",0.63,10390000000.0,Other
+2024-10-27,21:00,NWBI,"Northwest Bancshares, Inc.",0.31,1840000000.0,Other
+2024-10-27,21:15,HIG,"The Hartford Insurance Group, Inc.",3.09,36900000000.0,Financials
+2024-10-27,21:15,SSD,"Simpson Manufacturing Company, Inc.",2.44,7040000000.0,Industrials
+2024-10-27,21:03,CFLT,"Confluent, Inc.",0.1,7890000000.0,Other
+2024-10-27,21:05,FFIV,"F5, Inc.",3.97,19840000000.0,Other
+2024-11-07,AM,IBRX,"ImmunityBio, Inc.",-0.11,2400000000.0,Healthcare
+2024-11-07,AM,CMPO,"CompoSecure, Inc.",0.25,2090000000.0,Other
+2024-11-07,AM,FRHC,Freedom Holding Corp.,0.0,10500000000.0,Other
+2024-11-07,AM,CLMT,"Calumet, Inc",-0.37,1610000000.0,Other
+2024-11-07,AM,PAR,PAR Technology Corporation,-0.01,1510000000.0,Technology
+2024-11-07,AM,SPHR,Sphere Entertainment Co.,-1.81,2260000000.0,Other
+2024-11-13,AM,SPH,"Suburban Propane Partners, L.P.",-0.51,1220000000.0,Utilities
+2024-11-13,AM,TLN,Talen Energy Corporation,2.85,19620000000.0,Energy
+2024-11-13,AM,WWD,"Woodward, Inc.",1.86,15460000000.0,Other
+2024-11-13,AM,WSM,"Williams-Sonoma, Inc.",1.87,23260000000.0,Other
+2024-11-14,22:05,ATKR,Atkore Inc.,1.26,2170000000.0,Other
+2024-11-14,22:05,BKE,"Buckle, Inc. (The)",0.94,2750000000.0,Other
+2024-11-14,22:05,NB,NioCorp Developments Ltd.,-0.09,1170000000.0,Other
+2024-11-14,22:05,SPB,"Spectrum Brands Holdings, Inc.",0.9,1230000000.0,Consumer
+2024-11-14,22:05,SBET,"SharpLink Gaming, Inc.",0.01,3080000000.0,Other
+2024-11-14,22:05,BTDR,Bitdeer Technologies Group,-0.17,4370000000.0,Technology
+2024-11-14,22:05,ASTS,"AST SpaceMobile, Inc.",-0.21,35000000000.0,Other
+2024-11-14,22:05,ACLX,"Arcellx, Inc.",-0.99,4850000000.0,Other
+2024-11-14,22:05,YOU,"Clear Secure, Inc.",0.3,4130000000.0,Other
+2024-11-14,22:05,COGT,"Cogent Biosciences, Inc.",-0.52,2160000000.0,Healthcare
+2024-11-14,22:05,CELC,Celcuity Inc.,-1.02,1970000000.0,Other
+2024-11-26,AM,PVH,PVH Corp.,2.57,3950000000.0,Other
+2024-11-26,AM,FIVE,"Five Below, Inc.",0.22,8350000000.0,Consumer
+2024-11-26,AM,NCNO,"nCino, Inc.",0.2,2890000000.0,Other
+2024-11-26,AM,NTNX,"Nutanix, Inc.",0.41,18290000000.0,Other
+2024-11-26,AM,SNOW,Snowflake Inc.,0.31,81550000000.0,Other
+2024-11-26,AM,VEEV,Veeva Systems Inc.,1.95,47180000000.0,Technology
+2024-11-26,AM,VSCO,Victorias Secret & Co.,-0.62,2380000000.0,Other
+2024-11-26,AM,ZS,"Zscaler, Inc.",0.86,47940000000.0,Other
+2024-11-26,AM,PSTG,"Pure Storage, Inc.",0.58,30500000000.0,Other
+2024-11-27,AM,ASAN,"Asana, Inc.",0.06,3360000000.0,Other
+2024-11-27,AM,REX,REX American Resources Corporation,0.27,1080000000.0,Energy
+2024-11-27,AM,MRVL,"Marvell Technology, Inc.",0.74,76220000000.0,Technology
+2024-11-27,AM,IOT,Samsara Inc.,0.12,21520000000.0,Other
+2024-11-27,AM,GCT,GigaCloud Technology Inc,0.72,1020000000.0,Technology
+2024-11-28,AM,FRO,Frontline Plc,0.27,4960000000.0,Other
+2024-11-28,AM,FLNG,FLEX LNG Ltd.,0.43,1310000000.0,Energy
