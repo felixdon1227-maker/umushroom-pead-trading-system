@@ -105,7 +105,7 @@ class PEADHistoricalAnalyzer:
     def __init__(self, tws_app, earnings_csv):
         self.tws = tws_app
         self.df = pd.read_csv(earnings_csv)
-        self.data_dir = '../../data/processed/historical_data'
+        self.data_dir = 'data/processed/historical_data'
         
         # Create directories
         os.makedirs(self.data_dir, exist_ok=True)
@@ -312,6 +312,7 @@ class PEADHistoricalAnalyzer:
             if i % 10 == 0:
                 summary_df = pd.DataFrame(results)
                 summary_df.to_csv(f'{self.data_dir}/collection_summary.csv', index=False)
+                progress_pct = (len(results) / total_stocks) * 100
                 print(f"\n💾 Progress saved: {len(results)} stocks completed ({progress_pct:.1f}%)")
             
             # Pacing to avoid rate limits - OPTIMIZED

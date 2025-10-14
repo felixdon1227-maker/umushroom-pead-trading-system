@@ -11,7 +11,7 @@ print("=" * 80)
 
 # Connect to TWS
 print("\nStep 1: Connecting to TWS on port 4002...")
-tws = connect_to_tws(port=4002, client_id=25)
+tws = connect_to_tws(port=4002, client_id=35)
 
 if not tws:
     print("✗ Failed to connect. Make sure TWS/IB Gateway is running.")
@@ -21,7 +21,7 @@ time.sleep(2)
 
 # Initialize analyzer
 print("\nStep 2: Initializing analyzer...")
-analyzer = PEADHistoricalAnalyzer(tws, '../../data/processed/earnings_final.csv')
+analyzer = PEADHistoricalAnalyzer(tws, 'data/processed/earnings_final.csv')
 
 print(f"✓ Found {len(analyzer.df['ticker'].unique())} stocks to process")
 
