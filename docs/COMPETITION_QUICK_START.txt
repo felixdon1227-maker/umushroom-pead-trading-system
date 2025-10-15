@@ -1,0 +1,177 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    UMUSHROOM COMPETITION - QUICK START
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 YOUR TOP 10 OPPORTUNITIES (Ready to Trade)
+───────────────────────────────────────────────────────────────────────────────
+
+1. AGYS  - Oct 27 | Score: 100 | Beat Rate: 87.5% | Drift: 10.2% ⭐⭐⭐
+2. PIPR  - Oct 24 | Score:  95 | Beat Rate: 91.7% | Drift:  6.8% ⭐⭐
+3. BOH   - Oct 27 | Score:  95 | Beat Rate: 79.2% | Drift:  5.5% ⭐⭐
+4. ITW   - Oct 24 | Score:  90 | Beat Rate: 91.7% | Drift:  3.6% ⭐
+5. OLN   - Oct 27 | Score:  90 | Beat Rate: 70.8% | Drift:  5.4% ⭐
+6. ABCB  - Oct 27 | Score:  90 | Beat Rate: 66.7% | Drift:  7.4% ⭐
+7. TLN   - Nov 13 | Score:  90 | Beat Rate: 85.7% | Drift:  6.1% ⭐
+8. CR    - Oct 27 | Score:  85 | Beat Rate: 87.0% | Drift:  7.3%
+9. HCA   - Oct 24 | Score:  85 | Beat Rate: 70.8% | Drift:  4.6%
+10. EEFT - Oct 17 | Score:  85 | Beat Rate: 66.7% | Drift:  6.5%
+
+═══════════════════════════════════════════════════════════════════════════════
+🚀 QUICK COMMANDS
+═══════════════════════════════════════════════════════════════════════════════
+
+# View all STRONG BUY recommendations (19 total)
+python3 scripts/analysis/competition_filter.py --strong-buy
+
+# View top 20 opportunities
+python3 scripts/analysis/competition_filter.py --top 20
+
+# Interactive filtering (filter by date, sector, custom criteria)
+python3 scripts/analysis/competition_filter.py
+
+# View complete analysis guide
+cat PEAD_ANALYSIS_COMPLETE.md
+
+═══════════════════════════════════════════════════════════════════════════════
+📋 TRADING CHECKLIST (Copy This for Each Trade)
+═══════════════════════════════════════════════════════════════════════════════
+
+Stock: ____________  Earnings Date: ____________  Time: ____________
+
+PRE-EARNINGS:
+□ Reviewed scorecard (beat rate, drift, score)
+□ Position size calculated: $__________
+□ Stop loss planned: -8% = $__________
+□ Target planned: +12% = $__________
+
+POST-EARNINGS:
+□ EPS Estimate: $______  Actual: $______  Surprise: ______%
+□ Beat >5%? YES / NO
+□ Guidance maintained/raised? YES / NO
+□ Pre-market reaction: ______%
+
+ENTRY DECISION:
+□ All criteria met - ENTER POSITION
+□ Criteria not met - SKIP TRADE
+
+POSITION MANAGEMENT:
+□ Entry price: $______  Shares: ______
+□ Stop loss set at: $______
+□ Target alert set at: $______
+□ Exit date (5-10 days): ____________
+
+RESULT:
+□ Exit price: $______  P&L: $______  Return: ______%
+□ Reason for exit: TARGET / STOP / TIME
+
+═══════════════════════════════════════════════════════════════════════════════
+🎯 YOUR STRATEGY (Memorize This)
+═══════════════════════════════════════════════════════════════════════════════
+
+ENTRY CRITERIA (Must Meet ALL):
+✓ Earnings beat >5%
+✓ Guidance maintained or raised
+✓ After-hours gap >3% OR strong pre-market
+✓ Volume confirmation (>2x average)
+
+POSITION SIZING:
+• $50B+ market cap = $3,000 position
+• $10-50B market cap = $2,500 position
+• $5-10B market cap = $2,000 position
+
+RISK MANAGEMENT:
+• Stop loss: -8% (NO EXCEPTIONS)
+• Target: +12%
+• Hold period: 5-10 days max
+• Max 8 concurrent positions
+• Max 3 positions in same sector
+
+═══════════════════════════════════════════════════════════════════════════════
+📅 THIS WEEK'S CALENDAR
+═══════════════════════════════════════════════════════════════════════════════
+
+WEDNESDAY, OCT 16:
+  • INDB - Independent Bank Corp. (Score: 85, STRONG BUY)
+
+THURSDAY, OCT 17:
+  • EEFT - Euronet Worldwide (Score: 85, STRONG BUY)
+  • SLB - Schlumberger (Score: 85, STRONG BUY)
+
+THURSDAY, OCT 24:
+  • PIPR - Piper Sandler (Score: 95, STRONG BUY) ⭐
+  • ITW - Illinois Tool Works (Score: 90, STRONG BUY) ⭐
+  • HCA - HCA Healthcare (Score: 85, STRONG BUY)
+  • NVT - nVent Electric (Score: 85, STRONG BUY)
+
+SUNDAY, OCT 27:
+  • AGYS - Agilysys (Score: 100, STRONG BUY) ⭐⭐⭐ #1 RANKED
+  • BOH - Bank of Hawaii (Score: 95, STRONG BUY) ⭐
+  • OLN - Olin Corporation (Score: 90, STRONG BUY) ⭐
+  • ABCB - Ameris Bancorp (Score: 90, STRONG BUY) ⭐
+  • CR - Crane Company (Score: 85, STRONG BUY)
+
+═══════════════════════════════════════════════════════════════════════════════
+💡 KEY STATS TO REMEMBER
+═══════════════════════════════════════════════════════════════════════════════
+
+YOUR STRONG BUY STOCKS:
+• 19 total opportunities
+• 78% average beat rate (very high)
+• 63% average surprise (well above 5% threshold)
+• 5.8% average 10-day drift (achievable returns)
+• 76% average win rate (high probability)
+
+EXPECTED PERFORMANCE:
+• Conservative: +1.7% weekly
+• Realistic: +2.5% weekly
+• Optimistic: +4.5% weekly
+
+═══════════════════════════════════════════════════════════════════════════════
+📁 KEY FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+MASTER SCORECARD (All 92 stocks ranked):
+  data/enriched/analysis_results/pead_master_scorecard.csv
+
+EARNINGS BEAT STATS:
+  data/enriched/earnings_quality/earnings_beat_statistics.csv
+
+POST-EARNINGS DRIFT:
+  data/enriched/market_conditions/post_earnings_drift.csv
+
+COMPLETE GUIDE:
+  PEAD_ANALYSIS_COMPLETE.md
+
+═══════════════════════════════════════════════════════════════════════════════
+🎓 TRADING RULES (Never Break These)
+═══════════════════════════════════════════════════════════════════════════════
+
+1. ONLY enter if beat >5% (your edge is in the data)
+2. ALWAYS set stop loss immediately at -8%
+3. NEVER hold more than 10 days
+4. NEVER exceed 8 concurrent positions
+5. NEVER add to losing positions
+6. ALWAYS take profits at +12% target
+7. NEVER trade without checking scorecard first
+8. ALWAYS review guidance before entering
+
+═══════════════════════════════════════════════════════════════════════════════
+🏆 YOUR COMPETITIVE ADVANTAGE
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Data-driven selection (not guessing)
+✓ 105 stocks analyzed historically
+✓ 19 pre-qualified opportunities
+✓ 78% beat rate on top picks
+✓ Clear entry/exit rules
+✓ Risk management system
+
+═══════════════════════════════════════════════════════════════════════════════
+
+REMEMBER: Discipline beats emotion. Follow the system. Let probabilities work.
+
+GOOD LUCK! 🚀
+
+═══════════════════════════════════════════════════════════════════════════════
+
+

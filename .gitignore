@@ -20,13 +20,13 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.log
 
-# Virtual environments
+# Virtual Environment
 venv/
 env/
 ENV/
-env.bak/
-venv.bak/
+.venv
 
 # IDE
 .vscode/
@@ -34,48 +34,57 @@ venv.bak/
 *.swp
 *.swo
 *~
+.DS_Store
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Data files (keep structure but ignore large data)
-data/processed/historical_data/
-data/raw/*.csv
-data/raw/*.txt
-logs/*.log
-
-# Keep important processed files
+# Data directories
+data/bulk_extraction/
+data/finviz_*/
+data/historical_complete/
+data/enriched/
+data/exclusions/
+*.csv
 !data/processed/earnings_final.csv
-!data/exclusions/*.csv
 
-# Temporary files
-*.tmp
-*.temp
-.DS_Store
-Thumbs.db
+# Results and Analysis Output
+results/
+strategy2_analysis/
+*.csv
+*.json
+!config/*.json
 
-# API keys and secrets
-*.key
-*.pem
-secrets.py
-config/secrets.py
+# Logs
+logs/
+*.log
+*.txt
+!requirements.txt
+!README.txt
 
-# Large data files
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-
-# Backup files
-*.bak
+# Archived/Temporary files
+docs/archive/
+scripts/archive/
+scripts/archived_scripts/
 *.backup
+*.bak
+*.tmp
+*_old.*
 *_backup.*
+analyze_filtering.py
+monitor_extraction.sh
+missing_tickers.txt
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+# OS
 Thumbs.db
+.DS_Store
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Reports (keep only key docs in docs/)
+*_COMPLETE*.md
+*_SUMMARY*.md
+*_REPORT*.md
+*_GUIDE*.md
+*_ANALYSIS*.md
+MISSION_*.txt
+FINAL_*.md
+continue_daily_collection.txt

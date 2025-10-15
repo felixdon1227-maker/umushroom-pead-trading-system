@@ -35,9 +35,8 @@ def main():
         monitor_main()
     
     elif args.command == 'analyze':
-        print("Analysis module - Coming soon")
-        # from analysis.performance_analyzer import main as analyze_main
-        # analyze_main()
+        from analysis.run_analysis import main as analyze_main
+        analyze_main()
     
     elif args.command == 'screen':
         from analysis.quick_screener import main as screen_main
