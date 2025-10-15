@@ -1,2 +1,0 @@
-entry_strategy,exit_day,sizing_method,filters,stop_loss,take_profit,trade_count,avg_return,median_return,win_rate,avg_win,avg_loss,expectancy,sharpe,max_drawdown,total_pnl,score,stopped_out,hit_target,time_exit
-positive_strong,15,fixed,{'volume_spike_min': 2.5},-10,15,52,12.115384615384615,15.0,88.46153846153845,15.0,-10.0,12.115384615384611,1.502205736102281,-10,25200.0,35.53483595822561,6,46,0

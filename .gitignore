@@ -4,45 +4,87 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
-
-# Logs
+.installed.cfg
+*.egg
+MANIFEST
 *.log
-logs/
 
-# Temporary files
-*.tmp
-*.temp
-.DS_Store
-
-# Data backup files
-*.before_removal
-*.backup
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Analysis outputs
-*.png
-*.jpg
-*.jpeg
-strategy2_analysis_output.log
-optimization_output.log
-backtest_output.log
+# Data directories
+data/bulk_extraction/
+data/finviz_*/
+data/historical_complete/
+data/enriched/
+data/exclusions/
+*.csv
+!data/processed/earnings_final.csv
 
-# Large data files (keep structure, ignore large files)
-data/processed/historical_data/daily_prices/*.csv
-data/processed/historical_data/hourly_prices/*.csv
-data/processed/historical_data/earnings_history/*.csv
-data/enriched/fundamental_data/historical_fundamentals/*.csv
+# Results and Analysis Output
+results/
+strategy2_analysis/
+*.csv
+*.json
+!config/*.json
 
-# Exclusions (generated files)
-data/exclusions/*.csv
+# Logs
+logs/
+*.log
+*.txt
+!requirements.txt
+!README.txt
 
+# Archived/Temporary files
+docs/archive/
+scripts/archive/
+scripts/archived_scripts/
+*.backup
+*.bak
+*.tmp
+*_old.*
+*_backup.*
+analyze_filtering.py
+monitor_extraction.sh
+missing_tickers.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Reports (keep only key docs in docs/)
+*_COMPLETE*.md
+*_SUMMARY*.md
+*_REPORT*.md
+*_GUIDE*.md
+*_ANALYSIS*.md
+MISSION_*.txt
+FINAL_*.md
+continue_daily_collection.txt
